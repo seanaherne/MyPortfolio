@@ -1,0 +1,118 @@
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  font-family: 'Prata', serif;
+  font-size: 22px;
+}
+h1, h2, h3, h4, h5{
+  font-family: 'Prata', serif;
+  font-weight: normal;
+}
+
+h1{
+  font-size: 150px;
+}
+
+h2{
+  font-size: 100px;
+}
+
+.works h2{
+  color: #16736e;
+}
+
+.myteam h2{
+  color: #003170
+}
+
+.contact h2{
+  color: #f3747b;
+}
+
+h3{
+  font-size: 50px;
+}
+
+.works h3{
+  color: #16736e;
+}
+
+.myteam h3{
+  color: #306fbf;
+}
+
+h4{
+  font-size: 32px;
+  color: #16736e;
+  background-color: #75e3dd;
+  display: inline-block;
+  margin: 0;
+  padding: 4px;
+}
+
+a{
+  letter-spacing: 3px;
+  color: #2ce6dc;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p{
+  line-height: 145%;
+}
+
+.navigation{
+  text-align: center;
+}
+
+.navigation li{
+  display: inline-block;
+  margin: 0 15px;
+  color: #20c4bb;
+}
+.left-col, .right-col{
+  color: #ffff;
+  text-align: center;
+}
+
+.left-col{
+  background-color: #003170;
+}
+
+.right-col{
+  background-color: #75e3dd;
+}
+
+.scroll{
+  color: #2864b1;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #f5979c;
+}
+
+.social-icon{
+  height: 60px;
+  margin: 10px 20px;
+}
+
+.social-icons-container{
+  text-align: center;;
+}
