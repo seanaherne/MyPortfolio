@@ -69,6 +69,13 @@ a{
   font-weight: bold;
 }
 
+.black {
+ color : #000000;
+ font-family: 'Inconsolata', monospace;
+ font-weight: normal;
+ line-height: 145%;
+}
+
 p{
   line-height: 145%;
 }
@@ -106,6 +113,7 @@ img {
 
 footer {
   background-color: #f5979c;
+  position: fixed;
 }
 
 .social-icon{
