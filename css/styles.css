@@ -103,11 +103,11 @@ p{
 }
 
 .left-col{
-  background-color: #16736e;
+  background: linear-gradient(to top, #ccffff -1%, #16736e 32%);
 }
 
 .right-col{
-  background-color: #16736e;
+  background: linear-gradient(to top, #ccffff -1%, #16736e 32%);
 }
 
 .scroll{
