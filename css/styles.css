@@ -22,10 +22,17 @@ h1, h2, h3, h4, h5{
 
 h1{
   font-size: 150px;
+  margin: 0;
 }
 
 h2{
   font-size: 100px;
+}
+
+.top-container{
+  width: 500px;
+  margin: 0 auto;
+
 }
 
 .works h2{
@@ -33,11 +40,11 @@ h2{
 }
 
 .myteam h2{
-  color: #003170
+  color: #16736e;
 }
 
 .contact h2{
-  color: #f3747b;
+  color: #003170;
 }
 
 h3{
@@ -48,9 +55,7 @@ h3{
   color: #16736e;
 }
 
-.myteam h3{
-  color: #306fbf;
-}
+
 
 h4{
   font-size: 32px;
@@ -92,6 +97,10 @@ p{
 .left-col, .right-col{
   color: #ffff;
   text-align: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .left-col{
@@ -99,7 +108,7 @@ p{
 }
 
 .right-col{
-  background-color: #75e3dd;
+  background-color: #003170;
 }
 
 .scroll{
