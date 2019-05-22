@@ -1,0 +1,142 @@
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  font-family: 'Prata', serif;
+  font-size: 22px;
+}
+h1, h2, h3, h4, h5{
+  font-family: 'Prata', serif;
+  font-weight: normal;
+}
+
+h1{
+  font-size: 150px;
+  margin: 0;
+}
+
+h2{
+  font-size: 100px;
+}
+
+.top-container{
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+.works h2{
+  color: #16736e;
+}
+
+.myteam h2{
+  color: #16736e;
+}
+
+.contact h2{
+  color: #16736e;
+}
+
+h3{
+  font-size: 50px;
+}
+
+.works h3{
+  color: #16736e;
+}
+
+
+h4{
+  font-size: 32px;
+  color: #16736e;
+  background-color: #75e3dd;
+  display: inline-block;
+  margin: 0;
+  padding: 4px;
+}
+
+h5{
+  font-size: 32px;
+  color: #16736e;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+a{
+  letter-spacing: 3px;
+  color: #2ce6dc;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.black {
+ color : #000000;
+ font-family: 'Inconsolata', monospace;
+ font-weight: normal;
+ line-height: 145%;
+}
+
+p{
+  line-height: 145%;
+}
+
+.navigation{
+  text-align: center;
+}
+
+.navigation li{
+  display: inline-block;
+  margin: 0 15px;
+  color: #20c4bb;
+}
+.left-col, .right-col{
+  color: #ffff;
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-col{
+  background: linear-gradient(to top, #ccffff -1%, #16736e 32%);
+}
+
+.right-col{
+  background: linear-gradient(to top, #ccffff -1%, #16736e 32%);
+}
+
+.scroll{
+  color: #16736e;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #f5979c;
+  position: fixed;
+}
+
+.social-icon{
+  height: 60px;
+  margin: 10px 20px;
+}
+
+.social-icons-container{
+  text-align: center;;
+}
